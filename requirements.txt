@@ -1,0 +1,33 @@
+# ═══════════════════════════════════════════════════════
+#  BINANCE FUTURES AI TRADING BOT - REQUIREMENTS
+#  Python 3.10+ recommended
+# ═══════════════════════════════════════════════════════
+
+# ── Core Framework ──
+streamlit>=1.32.0
+
+# ── Data & Math ──
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ── Technical Indicators (130+) ──
+pandas-ta>=0.3.14b
+
+# ── Exchange Connectivity ──
+ccxt>=4.2.0
+
+# ── Deep Reinforcement Learning ──
+stable-baselines3>=2.2.0
+gymnasium>=0.29.0
+torch>=2.1.0
+
+# ── Optional: FinRL (advanced RL) ──
+# finrl>=0.3.6  # Uncomment if needed
+
+# ── Visualization ──
+plotly>=5.18.0
+matplotlib>=3.7.0
+
+# ── Utilities ──
+python-dotenv>=1.0.0
+requests>=2.31.0
